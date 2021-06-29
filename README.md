@@ -9,9 +9,9 @@ An include that has a bunch of skin information with work-in-progress support of
 
 ## GTA Underground Support Tracker
 
-Vice City Stories: Mostly done!
+Vice City Stories: 23.3% (46 out of 197)
 
 ## Credits
 
-Originally by Crayder
-Maintained by AliLogic
+* Originally by Crayder
+* Maintained by AliLogic

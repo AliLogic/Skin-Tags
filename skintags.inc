@@ -682,7 +682,6 @@ static const skinInfoList[][e_SKIN_INFO] = {
 	{26008, !"VCS_BFYBE",    !"VCS Black Young Woman"                        , SKIN_GROUP_BEACH_GIRL   , SKIN_ANIM_WOMAN        , SKIN_GENDER_FEMALE | SKIN_RACE_BLACK | SKIN_TYPE_BEACH},
 	{26009, !"VCS_BFYPR",    !"VCS Black Prostitute"                         , SKIN_GROUP_PROSTITUTE   , SKIN_ANIM_PROSTITUTE   , SKIN_GENDER_FEMALE | SKIN_RACE_BLACK | SKIN_TYPE_WHORE},
 	{26010, !"VCS_BFYRI",    !"VCS Black Rich Woman"                         , SKIN_GROUP_STREET_GIRL  , SKIN_ANIM_BUSY_WOMAN   , SKIN_GENDER_FEMALE | SKIN_RACE_BLACK},
-
 	{26011, !"VCS_BFYST",    !"VCS Black Street Woman"                       , SKIN_GROUP_SENSIBLE_GIRL, SKIN_ANIM_SEXY_WOMAN   , SKIN_GENDER_FEMALE | SKIN_RACE_BLACK},
 	{26012, !"VCS_BMOBE",    !"VCS Old Black Male Beach"                     , SKIN_GROUP_TOUGH_GUY    , SKIN_ANIM_MAN          , SKIN_GENDER_MALE   | SKIN_RACE_BLACK},
 	{26013, !"VCS_BMODK",    !"VCS Old Black Male Docks Worker"              , SKIN_GROUP_SENSIBLE_GUY , SKIN_ANIM_GANG         , SKIN_GENDER_MALE   | SKIN_RACE_BLACK},
@@ -693,7 +692,6 @@ static const skinInfoList[][e_SKIN_INFO] = {
 	{26018, !"VCS_BMYBU",    !"VCS Black Male Young BU"                      , SKIN_GROUP_SUIT_GUY     , SKIN_ANIM_MAN          , SKIN_GENDER_MALE   | SKIN_RACE_BLACK},
 	{26019, !"VCS_BMYCR",    !"VCS Black Male Young Criminal"                , SKIN_GROUP_CRIMINAL     , SKIN_ANIM_GANG         , SKIN_GENDER_MALE   | SKIN_RACE_BLACK},
 	{26020, !"VCS_BMYPI",    !"VCS Black Male Young P"                       , SKIN_GROUP_STREET_GUY   , SKIN_ANIM_GANG         , SKIN_GENDER_MALE   | SKIN_RACE_BLACK},
-
 	{26021, !"VCS_BMYRI",    !"VCS Black Male Young Rich"                    , SKIN_GROUP_COWARD       , SKIN_ANIM_MAN          , SKIN_GENDER_MALE   | SKIN_RACE_BLACK},
 	{26022, !"VCS_BMYST",    !"VCS Black Male Young Street"                  , SKIN_GROUP_STREET_GUY   , SKIN_ANIM_GANG         , SKIN_GENDER_MALE   | SKIN_RACE_BLACK},
 	{26023, !"VCS_BURGER",   !"VCS King Knuts"                               , SKIN_GROUP_SENSIBLE_GUY , SKIN_ANIM_MAN          , SKIN_GENDER_MALE   | SKIN_RACE_WHITE}, 
@@ -704,7 +702,6 @@ static const skinInfoList[][e_SKIN_INFO] = {
 	{26028, !"VCS_CS_DIAZ",  !"VCS Ricardo Diaz"                             , SKIN_GROUP_MISSION      , SKIN_ANIM_MAN          , SKIN_GENDER_MALE   | SKIN_RACE_LATIN},
 	{26029, !"VCS_CS_FORBES",!"VCS Bryan Forbes"                             , SKIN_GROUP_MISSION      , SKIN_ANIM_MAN          , SKIN_GENDER_MALE   | SKIN_RACE_WHITE},
 	{26030, !"VCS_CS_JANET", !"VCS Janet Vance"                              , SKIN_GROUP_MISSION      , SKIN_ANIM_WOMAN        , SKIN_GENDER_FEMALE | SKIN_RACE_WHITE},
-
 	{26031, !"VCS_CS_LOUISE3", !"Louise Cassidy-Williams"                    , SKIN_GROUP_MISSION      , SKIN_ANIM_WOMAN        , SKIN_GENDER_FEMALE | SKIN_RACE_WHITE},
 	{26032, !"VCS_CS_MAN1",  !"VCS_CS_MAN1"                                  , SKIN_GROUP_MISSION      , SKIN_ANIM_MAN          , SKIN_GENDER_MALE   | SKIN_RACE_WHITE},
 	{26033, !"VCS_CS_MARYJ", !"Mary-Jo Cassidy"                              , SKIN_GROUP_MISSION      , SKIN_ANIM_WOMAN        , SKIN_GENDER_FEMALE | SKIN_RACE_WHITE},
@@ -715,29 +712,27 @@ static const skinInfoList[][e_SKIN_INFO] = {
 	{26038, !"VCS_CWMYHB2",  !"Jerry Martinez"                               , SKIN_GROUP_MISSION      , SKIN_ANIM_MAN          , SKIN_GENDER_MALE   | SKIN_RACE_WHITE},
 	{26039, !"VCS_DEA1",     !"VCS Drug Enforcement Agency (1)"              , SKIN_GROUP_COP          , SKIN_ANIM_SWAT         , SKIN_GENDER_MALE   | SKIN_RACE_WHITE},
 	{26040, !"VCS_DEA2",     !"VCS Drug Enforcement Agency (2)"              , SKIN_GROUP_COP          , SKIN_ANIM_SWAT         , SKIN_GENDER_MALE   | SKIN_RACE_WHITE},
+	{26041, !"VCS_DIAZ",     !"VCS Ricardo Diaz"                             , SKIN_GROUP_SUIT_GUY     , SKIN_ANIM_MAN          , SKIN_GENDER_MALE   | SKIN_RACE_WHITE},
+	{26042, !"VCS_DIEGO",    !"VCS Diego Mendez"                             , SKIN_GROUP_SUIT_GUY     , SKIN_ANIM_MAN          , SKIN_GENDER_MALE   | SKIN_RACE_WHITE},
+	{26043, !"VCS_FBI",      !"VCS FBI"                                      , SKIN_GROUP_COP          , SKIN_ANIM_SWAT         , SKIN_GENDER_MALE   | SKIN_RACE_WHITE | SKIN_SERVICE_FBI},
+	{26044, !"VCS_FILMCRW",  !"VCS Filmcrew"                                 , SKIN_GROUP_GANG         , SKIN_ANIM_MAN          , SKIN_GENDER_MALE   | SKIN_RACE_WHITE},
+	{26045, !"VCS_FIREMEN",  !"VCS Firefighter"                              , SKIN_GROUP_FIREMAN      , SKIN_ANIM_SWAT         , SKIN_GENDER_MALE   | SKIN_RACE_WHITE | SKIN_SERVICE_FIRE},
 
-	{26041, !"VCS_DIAZ",     !"VCS Ricardo Diaz", STAT_SUIT_GUY, man, SKIN_GENDER_MALE | SKIN_RACE_WHITE},
-	{26042, !"VCS_DIEGO",    !"VCS DIEGO", STAT_SUIT_GUY, man, SKIN_GENDER_MALE | SKIN_RACE_WHITE},
-	{26043, !"VCS_FBI",      !"VCS FBI", SKIN_GROUP_COP, swat, 1ff | 0 | null | 9},
-	{26044, !"VCS_FILMCRW",  !"VCS FILMCRW", GANG2, STAT_GANG2, man |120c | 0 |man |7 | 3},
-	{26045, !"VCS_FIREMEN",  !"VCS FIREMEN", STAT_FIREMAN, swat, 1ff | 0 | null | 9},
-	{26046, !"VCS_GANG1A",   !"VCS GANG1A", STAT_GANG3, gang2, 110f | 1 | man | 0}, 
-	{26047, !"VCS_GANG1B",   !"VCS GANG1B", STAT_GANG3, gang1, 110f | 1 | man | 0}, 
-	{26048, !"VCS_GANG1C",   !"VCS GANG1C", STAT_GANG3, gang2, 110f | 1 | man | 0}, 
-	{26049, !"VCS_GANG1D",   !"VCS GANG1D", STAT_GANG3, gang1, 110f | 1 | man | 0}, 
-	{26050, !"VCS_GANG2A",   !"VCS GANG2A", STAT_GANG8, gang2, 110f | 1 | man | 0}, 
-
+	{26046, !"VCS_GANG1A",   !"VCS GANG1A", STAT_GANG3, gang2, 110f | 1 | man | 0},
+	{26047, !"VCS_GANG1B",   !"VCS GANG1B", STAT_GANG3, gang1, 110f | 1 | man | 0},
+	{26048, !"VCS_GANG1C",   !"VCS GANG1C", STAT_GANG3, gang2, 110f | 1 | man | 0},
+	{26049, !"VCS_GANG1D",   !"VCS GANG1D", STAT_GANG3, gang1, 110f | 1 | man | 0},
+	{26050, !"VCS_GANG2A",   !"VCS GANG2A", STAT_GANG8, gang2, 110f | 1 | man | 0},
 	{26051, !"VCS_GANG2B",   !"VCS GANG2B", STAT_GANG8, gang1, 110f | 1 | man | 0}, 
 	{26052, !"VCS_GANG3A",   !"VCS GANG3A", STAT_GANG7, gang1, 110f | 1 | man | 0},
 	{26053, !"VCS_GANG3B",   !"VCS GANG3B", STAT_GANG7, gang2, 110f | 1 | man | 0},
-	{26054, !"VCS_GANG4A",   !"VCS GANG4A", SKIN_GROUP_COP, swat, 1fff | 0 | null | 9},
-	{26055, !"VCS_GANG4B",   !"VCS GANG4B", SKIN_GROUP_COP, swat, 1fff | 0 | null | 9},
-	{26056, !"VCS_GANG5A",   !"VCS GANG5A", SKIN_GROUP_COP, swat, 1FFF | 0 | null | 9},
-	{26057, !"VCS_GANG5B",   !"VCS GANG5B", SKIN_GROUP_COP, swat, 1FFF | 0 | null | 9},
+	{26054, !"VCS_GANG4A",   !"VCS GANG4A", SKIN_GROUP_COP         , SKIN_ANIM_SWAT         , SKIN_GENDER_MALE   | SKIN_RACE_WHITE | SKIN_SERVICE_FBI},
+	{26055, !"VCS_GANG4B",   !"VCS GANG4B", SKIN_GROUP_COP         , SKIN_ANIM_SWAT         , SKIN_GENDER_MALE   | SKIN_RACE_WHITE | SKIN_SERVICE_FBI},
+	{26056, !"VCS_GANG5A",   !"VCS GANG5A", SKIN_GROUP_COP         , SKIN_ANIM_SWAT         , SKIN_GENDER_MALE   | SKIN_RACE_WHITE | SKIN_SERVICE_FBI},
+	{26057, !"VCS_GANG5B",   !"VCS GANG5B", SKIN_GROUP_COP         , SKIN_ANIM_SWAT         , SKIN_GENDER_MALE   | SKIN_RACE_WHITE | SKIN_SERVICE_FBI},
 	{26058, !"VCS_GANG6A",   !"VCS GANG6A", STAT_GANG4, gang2, 110F | 1 | man | 0}, 
 	{26059, !"VCS_GANG6B",   !"VCS GANG6B", STAT_GANG4, gang1, 110F | 1 | man | 0}, 
 	{26060, !"VCS_GANG7A",   !"VCS GANG7A", STAT_GANG9, gang1, 110F | 1 | man | 0},
-
 	{26061, !"VCS_GANG7B",   !"VCS_GANG7B", STAT_GANG9, gang2, 110F | 1 | man | 0},
 	{26062, !"VCS_GANG8A",   !"VCS_GANG8A", STAT_SUIT_GUY, man, SKIN_GENDER_MALE | SKIN_RACE_WHITE},
 	{26063, !"VCS_GANG8B",   !"VCS_GANG8B", STAT_SUIT_GUY, man, SKIN_GENDER_MALE | SKIN_RACE_WHITE},
@@ -748,7 +743,6 @@ static const skinInfoList[][e_SKIN_INFO] = {
 	{26068, !"VCS_GTR1",     !"VCS_GTR1", STAT_SUIT_GUY, man, 28f | 0 | null | 5},
 	{26069, !"VCS_GTR2",     !"VCS_GTR2", STAT_SUIT_GUY, man, 28f | 0 | null | 5},
 	{26070, !"VCS_HFOBE",    !"VCS_HFOBE", STAT_OLD_GIRL, oldfatwoman, 28f | 0 | null | 2},
-
 	{26071, !"VCS_HFORI", !"VCS_HFORI", STAT_COWARD, woman, 28d | 0 | man | 2},
 	{26072, !"VCS_HFOST", !"VCS_HFOST", STAT_TOUGH_GIRL, woman, 417 | 0 | null | 2},
 	{26073, !"VCS_HFOTR", !"VCS_HFOTR", STAT_TRAMP_FEMALE, woman, 0 |0 | null | 9 | 9},
@@ -759,10 +753,9 @@ static const skinInfoList[][e_SKIN_INFO] = {
 	{26078, !"VCS_HFYPR", !"VCS_HFYPR", STAT_PROSTITUTE, pro, 1000 | 1 | man | 1},
 	{26079, !"VCS_HFYRI", !"VCS_HFYRI", STAT_COWARD, busywoman, 28d | 1 | null | 7},
 	{26080, !"VCS_HFYST", !"VCS_HFYST", STAT_STREET_GIRL, SKIN_ANIM_SEXY_WOMAN, 13 | 1 | man | 6},
-
 	{26081, !"VCS_HIGH_EMPA", !"VCS_HIGH_EMPA", STAT_GANG6, gang1, 110f | 1 | man | 3}, 
 	{26082, !"VCS_HIGH_EMPB", !"VCS_HIGH_EMPB", STAT_GANG6, gang2, 110f | 1 | man | 3},
-	{26083, !"VCS_HITMAN", !"VCS_HITMAN", SKIN_GROUP_COP, swat, 1fff | 0 | null | 9},
+	{26083, !"VCS_HITMAN", !"VCS_HITMAN", SKIN_GROUP_COP         , SKIN_ANIM_SWAT         , SKIN_GENDER_MALE   | SKIN_RACE_WHITE | SKIN_SERVICE_FBI},
 	{26084, !"VCS_HMOBE", !"VCS_HMOBE", STAT_TOURIST, man, 437 | 0 | null | 7},
 	{26085, !"VCS_HMOCA", !"VCS_HMOCA", STAT_TAXIDRIVER, man, 40 | 0 | null | 6 | 5},
 	{26086, !"VCS_HMORI", !"VCS_HMORI", STAT_SENSIBLE_GUY, man, 20d | 0 | null | 5},
@@ -770,7 +763,6 @@ static const skinInfoList[][e_SKIN_INFO] = {
 	{26088, !"VCS_HMOTR", !"VCS_HMOTR",  SKIN_GROUP_TRAMP_MALE  , SKIN_ANIM_MAN          , SKIN_GENDER_MALE   | SKIN_RACE_WHITE | SKIN_TYPE_HOMELESS},
 	{26089, !"VCS_HMYAP", !"VCS_HMYAP", STAT_SENSIBLE_GUY, gang1, 1bf | 0 | null | 4},
 	{26090, !"VCS_HMYBE", !"VCS_HMYBE", STAT_TOUGH_GUY, gang2, 38d | 0 | sunbathe | 6},
-
 	{26091, !"VCS_HMYRI", !"VCS_HMYRI", STAT_SUIT_GUY, man, 30d | 0 | null | 6},
 	{26092, !"VCS_HMYST", !"VCS_HMYST", STAT_GEEK_GUY, gang1, 5ab | 0 | man | 1},
 	{26125, !"VCS_JERRY", !"VCS_JERRY", STAT_GANG2, man, 120c | 0 | man | 7},
@@ -781,18 +773,16 @@ static const skinInfoList[][e_SKIN_INFO] = {
 	{26130, !"VCS_MENDEZ1", !"VCS_MENDEZ1", STAT_GANG2, gang2, 110f | 1 | man | 0}, 
 	{26131, !"VCS_MENDEZ2", !"VCS_MENDEZ2", STAT_GANG2, gang1, 110f | 1 | man | 0},
 	{26132, !"VCS_MENGGA", !"VCS_MENGGA", STAT_GANG2, gang2, 110F | 1 | man | 0}, 
-
 	{26133, !"VCS_MENGGB", !"VCS_MENGGB", STAT_GANG2, gang1, 110F | 1 | man | 0},
 	{26134, !"VCS_PHIL", !"VCS_PHIL", STAT_GANG2, man, 120C | 0 | man | 7},
 	{26135, !"VCS_PHILC1", !"VCS_PHILC1", STAT_GANG2, man, 120C | 0 | man | 7},
-	{26136, !"VCS_ROBBER", !"VCS_ROBBER", SKIN_GROUP_COP, swat, 1FFF | 0 | null | 9},
+	{26136, !"VCS_ROBBER", !"VCS_ROBBER", SKIN_GROUP_COP         , SKIN_ANIM_SWAT         , SKIN_GENDER_MALE   | SKIN_RACE_WHITE | SKIN_SERVICE_FBI},
 	{26137, !"VCS_SARGE", !"VCS_SARGE", STAT_GANG2, man, 120C | 0 | man | 7},
 	{26138, !"VCS_SHOPKPR", !"VCS_SHOPKPR", STAT_TOUGH_GUY, man, 1000 | 1 | man | 1},
-	{26139, !"VCS_SWAT", !"VCS_SWAT", SKIN_GROUP_COP, swat, 1FFF | 0 | null | 9},
-	{26140, !"VCS_VICE1", !"VCS_VICE1", SKIN_GROUP_COP, swat, 1FFF | 0 | null | 9},
-	{26141, !"VCS_VICE2", !"VCS_VICE2", SKIN_GROUP_COP, swat, 1FFF | 0 | null | 9}, 
+	{26139, !"VCS_SWAT", !"VCS_SWAT", SKIN_GROUP_COP         , SKIN_ANIM_SWAT         , SKIN_GENDER_MALE   | SKIN_RACE_WHITE | SKIN_SERVICE_FBI},
+	{26140, !"VCS_VICE1", !"VCS_VICE1", SKIN_GROUP_COP         , SKIN_ANIM_SWAT         , SKIN_GENDER_MALE   | SKIN_RACE_WHITE | SKIN_SERVICE_FBI},
+	{26141, !"VCS_VICE2", !"VCS_VICE2", SKIN_GROUP_COP         , SKIN_ANIM_SWAT         , SKIN_GENDER_MALE   | SKIN_RACE_WHITE | SKIN_SERVICE_FBI}, 
 	{26142, !"VCS_WFOBE", !"VCS_WFOBE", STAT_OLD_GIRL, oldfatwoman, 20f | 0 | null | 2},
-
 	{26143, !"VCS_WFOGO", !"VCS_WFOGO", STAT_OLD_GIRL, oldwoman, 28d | 1 | null | 2},
 	{26144, !"VCS_WFORI", !"VCS_WFORI", STAT_COWARD, woman, 28d | 0 | null | 10},
 	{26145, !"VCS_WFOSH", !"VCS_WFOSH", STAT_BEACH_GIRL, woman, 0 | 0 | man | 9 | 9},
@@ -803,7 +793,6 @@ static const skinInfoList[][e_SKIN_INFO] = {
 	{26150, !"VCS_WFYJG", !"VCS_WFYJG", STAT_COWARD, jogwoman, 1000 | 0 | beach | 9},
 	{26151, !"VCS_WFYLG", !"VCS_WFYLG", STAT_BEACH_GIRL, woman, 1000 | 0 | beach | 1},
 	{26152, !"VCS_WFYPR", !"VCS_WFYPR", STAT_PROSTITUTE, pro, 1000 | 1 | man | 1},
-
 	{26153, !"VCS_WFYRI", !"VCS_WFYRI", STAT_COWARD, SKIN_ANIM_SEXY_WOMAN, 28C | 1 | null | 4},
 	{26154, !"VCS_WFYSH", !"VCS_WFYSH", STAT_BEACH_GIRL, woman, 0 | 0 | 9 | 9}
 	{26155, !"VCS_WFYSK", !"VCS_WFYSK", STAT_SKATER, skate, 0 | 0 | 9 | 9}
@@ -813,7 +802,6 @@ static const skinInfoList[][e_SKIN_INFO] = {
 	{26159, !"VCS_WMOCA", !"VCS_WMOCA", STAT_TAXIDRIVER, man, 40 | 0 | man | 1},
 	{26160, !"VCS_WMOGO", !"VCS_WMOGO", STAT_SUIT_GUY, oldman, 28F | 1 | null | 3},
 	{26161, !"VCS_WMORI", !"VCS_WMORI", STAT_SUIT_GUY, man, 20D | 0 | man | 10},
-
 	{26162, !"VCS_WMOST", !"VCS_WMOST", STAT_OLD_GUY, man, 4F7 | 0 | man | 8},
 	{26163, !"VCS_WMOTR", !"VCS_WMOTR", SKIN_GROUP_TRAMP_MALE  , SKIN_ANIM_MAN          , SKIN_GENDER_MALE   | SKIN_RACE_WHITE | SKIN_TYPE_HOMELESS},
 	{26164, !"VCS_WMYBE", !"VCS_WMYBE", STAT_SENSIBLE_GUY, man, 1000 | 1 | man | 1}, 
@@ -824,7 +812,6 @@ static const skinInfoList[][e_SKIN_INFO] = {
 	{26169, !"VCS_WMYLG", !"VCS_WMYLG", STAT_GEEK_GUY, jogger, 1000 | 0 | null | 9}, 
 	{26170, !"VCS_WMYPI", !"VCS_WMYPI", STAT_CRIMINAL, man, 110F | 1 | man | 0},
 	{26171, !"VCS_WMYRI", !"VCS_WMYRI", STAT_SHOPPER, man, 30D | 1 | null | 6},
-
 	{26172, !"VCS_WMYSK", !"VCS_WMYSK", STAT_SKATER, skate, 0 | 0 | skate | 9 | 9},
 	{26173, !"VCS_WMYST", !"VCS_WMYST", STAT_STREET_GUY, man, 53F | 1 | null | 4},
 	{26174, !"VCS_ZOMA", !"VCS_ZOMA", STAT_GANG2, man, 120C | 0 | man | 7}
