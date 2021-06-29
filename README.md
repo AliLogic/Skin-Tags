@@ -21,11 +21,15 @@ Please refer to this website (https://gtaundergroundmod.com/pages/ug-mp/document
 Further more, the skin names are based on a pattern and keywords.
 
 "B" means black, "W" means white
+
 "F" means female, "M" means male
+
 "Y" means young", "O" means old
+
 "ST" means street, "RI" is rich, "DK" means dock worker, "TR" means tramp, "CR" means criminal, "VA" means valet
 
 BFYST for example would be Black, Female, Young, Street
+
 WMYVA for example would be White, Male, Young, Valet
 
 ## Credits
